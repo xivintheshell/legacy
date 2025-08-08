@@ -161,7 +161,7 @@ export default class Main extends React.Component<{ command?: string }> {
 			// Change the title
 			const title = document.getElementById("pageTitle") as HTMLTitleElement;
 			if (title) {
-				title.text = `${betaPrefix}XIV in the Shell (${job})`;
+				title.text = `${betaPrefix}XIV in the Shell (${job}) (Patch 7.25)`;
 			}
 		};
 
@@ -380,7 +380,7 @@ export default class Main extends React.Component<{ command?: string }> {
 							<SelectColorTheme setColorTheme={this.setColorTheme} />
 							<div>
 								<h3 style={{ marginTop: 20, marginBottom: 6 }}>
-									{betaPrefix}XIV in the Shell
+									{betaPrefix}XIV in the Shell {localize({en: "(Patch 7.25)", zh: "（7.25版本）"})}
 								</h3>
 								{localize({
 									en: <div style={{ marginBottom: 16 }}>

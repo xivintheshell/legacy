@@ -1,12 +1,12 @@
 import React, { CSSProperties } from "react";
-import { clearCachedValues, isBetaSite } from "../Controller/Common";
+import { clearCachedValues } from "../Controller/Common";
 import { Expandable, Help, ButtonIndicator } from "./Common";
 import { localize } from "./Localization";
 import { Changelog } from "./Changelog";
 import { getCurrentThemeColors } from "./ColorTheme";
 import { ShellJob } from "../Game/Data/Jobs";
 
-const THIS_DOMAIN = isBetaSite ? "https://beta.xivintheshell.com" : "https://xivintheshell.com";
+const THIS_DOMAIN = "https://xivintheshell.github.io/legacy";
 
 const GITHUB_URL = "https://github.com/xivintheshell/xivintheshell";
 
