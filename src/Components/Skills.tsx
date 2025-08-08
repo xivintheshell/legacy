@@ -383,7 +383,7 @@ function SkillButton(props: SkillButtonProps) {
 	/>;
 	const proc = <img
 		hidden={!props.highlight}
-		src="/misc/proc.png"
+		src="/legacy/misc/proc.png"
 		alt="skill proc"
 		style={{
 			position: "absolute",
@@ -427,7 +427,7 @@ function SkillButton(props: SkillButtonProps) {
 					position: "absolute",
 					width: skillBoxPx,
 					height: skillBoxPx,
-					background: "url('/misc/skillIcon_overlay.png') no-repeat",
+					background: "url('/legacy/misc/skillIcon_overlay.png') no-repeat",
 				}}
 			/>
 		</div>
