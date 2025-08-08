@@ -1,0 +1,122 @@
+.root {
+    /*
+    Needed for BaseUI dialogs to always appear on top
+    https://base-ui.com/react/overview/quick-start
+    */
+    isolation: isolate;
+}
+
+@font-face {
+    font-family: "Goldman Regular";
+    src: url("https://xivintheshell.github.io/resources/fonts/Goldman/Goldman-Regular.ttf");
+}
+@font-face {
+    font-family: "Goldman Bold";
+    src: url("https://xivintheshell.github.io/resources/fonts/Goldman/Goldman-Bold.ttf");
+}
+@font-face {
+    font-family: "Michroma";
+    src: url("https://xivintheshell.github.io/resources/fonts/Michroma/Michroma-Regular.ttf");
+}
+
+/*======== sections ========*/
+
+/* Stats display */
+
+.buff {
+    text-align: center;
+    width: 54px;
+    display: inline-block;
+}
+.buff.hidden {
+    display: none;
+}
+.buff>img {
+    display: inline-block;
+    height: 40px;
+    vertical-align: top;
+}
+
+/* Skills window */
+
+.skillsWindow {
+    line-height: 1;
+}
+.skillInfoText {
+    margin-bottom: 10px;
+}
+.skillButton {
+    display: inline-block;
+    user-select: none;
+    position: relative;
+}
+
+/* Danger button */
+.dangerButton {
+    color: #be0f0f;
+    border: 1px solid #be0f0f;
+    background: transparent;
+    padding: 4px 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.dangerButton:hover {
+    color: #ffffff;
+    background: #be0f0f;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.4);
+    box-shadow: 0 0 12px rgba(190, 15, 15, 0.4);
+}
+
+
+/*======== individual elems ========*/
+
+.clickable {
+    display: inline-block;
+}
+.clickable:hover {
+    cursor: pointer;
+}
+
+.clickableLinkLike {
+    display: inline-block;
+}
+
+.clickableLinkLike:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.paragraph {
+    margin: 10px 0;
+}
+
+/*
+copied when migrating from react-tooltip to baseui
+https://github.com/ReactTooltip/react-tooltip/blob/master/src/components/Tooltip/styles.module.css
+*/
+.tooltip {
+    padding: 8px 16px;
+    border-radius: 3px;
+    font-size: 90%;
+    width: max-content;
+}
+
+.tooltip-positioner {
+    z-index: 10;
+}
+
+.dialogExit {
+    position: absolute;
+    top: 0.5em;
+    right: 0.5em;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+/* Keeps a <th> element fixed in place relative to the table. */
+th.stickyTh {
+    position: sticky;
+    top: -1px;
+    z-index: 2;
+}

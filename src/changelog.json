@@ -1,0 +1,742 @@
+[
+	{
+		"date": "8/3/25",
+		"changes": [
+			"The active timeline slot is now saved across page reloads.",
+			"Click and drag to rearrange skills, both in the visual timeline and timeline editor table.",
+			"Click and drag on the background of the visual timeline to select multiple skills.",
+			"Use the \"drag lock\" switch to the right of the display settings tabs to disable click+drag behavior."
+		],
+		"changes_zh": [
+			"选定的时间轴现在会在重新加载后保存。",
+			"在时间轴可视化窗口和下方的“时间轴编辑器“内，可以点击并拖动来选择多个技能。",
+			"可以通过拖动选中技能以改变技能顺序。",
+			"“显示设置”右边的“拖动锁”可以禁用拖动功能。"
+		],
+		"level": "major"
+	},
+	{
+		"date": "7/27/25",
+		"changes": [
+			"Updated FPS adjustment preview tooltip to use GCD time instead of cast times."
+		]
+	},
+	{
+		"date": "7/26/25",
+		"changes": [
+			"[WHM][AST][SCH] Fixed a bug where Swiftcast's cooldown was set to 40s below level 100."
+		]
+	},
+	{
+		"date": "7/25/25",
+		"changes": [
+			"[SCH] Initial SCH implementation. Thanks to Caro for help with numbers and some mechanics.",
+			"That's every job now in the shell! Stay tuned for more features and improvements to come."
+		],
+		"changes_zh": [
+			"【学者】加了初步的支持。谢谢Caro帮助找数字和介绍职业机制。",
+			"所有的职业现在都包括在排轴器里了！请期待更多的功能和更大的进步。"
+		],
+		"level": "major"
+	},
+	{
+		"date": "7/22/25",
+		"changes": [
+			"[DNC] Fixed a bug where Fountain and Bladeshower could grant Silken Flow when used without combo."
+		]
+	},
+	{
+		"date": "7/20/25",
+		"changes": [
+			"[VPR] Added initial support for VPR. Thanks to Verra for help testing.",
+			"[BLU] Using an action while Waning Nocturne or Diamondback are active now uses the action as soon as the debuff expires."
+		],
+		"changes_zh": [
+			"【蝰蛇剑士】 加了初步的支持。谢谢Verra帮助测试。",
+			"【青魔】在有\"狂战士化的副作用\"或\"超硬化\"状态下使用技能，现在会自动地等到状态结束后再播放。"
+		],
+		"level": "major"
+	},
+	{
+		"date": "7/15/25",
+		"changes": [
+			"Fixed \"real-time auto pause\" display.",
+			"[GNB] Fixed a bug where Fated Circle broke combos."
+		],
+		"changes_zh": [
+			"修复了\"实时(带自动暂停）\"显示。",
+			"【绝抢战士】修复了命运之环会打断连击的问题。"
+		],
+		"level": "minor"
+	},
+	{
+		"date": "7/14/25",
+		"changes": [
+			"[BLU] Fixed a bug where Apokalypsis and Phantom Flurry's potencies were incorrect.",
+			"[BLU] Fixed a bug where Surpanakha's 30-second cooldown was not applied."
+		],
+		"changes_zh": [
+			"【青魔】修复了\"启示录\"和\"鬼宿脚\"威力的错误。",
+			"【青魔】修复了\"穿甲散弹\"没有用30秒CD的问题。"
+		],
+		"level": "minor"
+	},
+	{
+		"date": "7/10/25",
+		"changes": [
+			"[MNK] Now begins encounters with Formless Fist active by default.",
+			"[DRG][NIN] Fixed a bug where using combo actions out of sequence granted combo potency bonus.",
+			"[AST] Fixed Macrocosmos/Microcosmos."
+		],
+		"changes_zh": [
+			"【武士】现在会从战斗开始有\"无相身形\"。",
+			"【龙骑士】【忍者】修复了用错误的连击技能会给连击威力增加的问题。",
+			"【占星术士】修复了大宇宙和小宇宙。"
+		],
+		"level": "minor"
+	},
+	{
+		"date": "7/8/25",
+		"changes": [
+			"[AST] Added initial support for AST.",
+			"[WHM] Addd initial support for WHM.",
+			"[SAM][NIN][MNK] GCD calculations in the configuration panel now account for jobs' natural speed buffs."
+		],
+		"changes_zh": [
+			"【占星术士】 加了初步的支持。",
+			"【白魔】 加了初步的支持。",
+			"【武士】【忍者】【武僧】属性设置里的GCD现在会使用职业固有的复唱时间缩短。"
+		],
+		"level": "major"
+	},
+	{
+		"date": "7/5/25",
+		"changes": [
+			"[MNK] Added initial support for MNK."
+		],
+		"changes_zh": [
+			"【武僧】 加了初步的支持。"
+		],
+		"level": "major"
+	},
+	{
+		"date": "6/25/25",
+		"changes": [
+			"Fixed a bug where timestamps would not appear for wait events in the timeline editor.",
+			"Fixed a bug where selecting a skill in the visual canvas did not cause the editor table to scroll to its location."
+		],
+		"level": "minor"
+	},
+	{
+		"date": "6/24/25",
+		"changes": [
+			"[NIN] Added initial support for NIN."
+		],
+		"changes_zh": [
+			"【忍者】 加了初步的支持。"
+		],
+		"level": "major"
+	},
+	{
+		"date": "6/19/25",
+		"changes": [
+			"[DRK] Added initial support for DRK."
+		],
+		"changes_zh": [
+			"【暗黑骑士】 加了初步的暗黑骑士支持。"
+		],
+		"level": "major"
+	},
+	{
+		"date": "6/18/25",
+		"changes": [
+			"Fixed a bug where the \"wait until timestamp\" events would change times unexpectedly."
+		],
+		"changes_zh": [
+			"修复了\"快进至\"时间会意外地改变目标时间的问题。"
+		],
+		"level": "minor"
+	},
+	{
+		"date": "6/17/25",
+		"changes": [
+			"Fixed timestamps not appearing in the timeline editor when a new skill is added.",
+			"Fixed skill selections ending on \"wait\" events not rendering correctly in the graphical timeline.",
+			"Fixed skill tooltips in the graphical timeline not displaying AoE potency."
+		],
+		"changes_zh": [
+			"修复了新加的技能在时间轴编辑器里不显示出时间戳的问题。",
+			"修复了选择在\"快进至\"结束不正确地在图形时间轴内显示出的问题。",
+			"修复了在图形时间轴内的技能工具提示没显示aoe威力的问题。"
+		],
+		"level": "minor"
+	},
+	{
+		"date": "6/16/25",
+		"changes": [
+			"[BLU] Added support for Blue Mage."
+		],
+		"changes_zh": [
+			"【青魔】增加青魔支持。"
+		],
+		"level": "minor"
+	},
+	{
+		"date": "6/6/25",
+		"changes": [
+			"[GNB][SGE] Chinese localization."
+		],
+		"changes_zh": [
+			"【绝枪战士】【贤者】汉化。"
+		],
+		"level": "minor"
+	},
+	{
+		"date": "6/3/25",
+		"changes": [
+			"Added the ability to save invalid timelines on the visual canvas. Changes in the timeline editor now reflect in the graphical timeline as well.",
+			"The \"jump to timestamp\" and \"wait for MP tick\" buttons will now always look for the specified timestamp/next MP tick, even when actions are shifted in the timeline editor.",
+			"Added a \"Clone timeline slot\" button.",
+			"See our \"known bugs\" page on GitHub for limitations: https://github.com/xivintheshell/xivintheshell/wiki/Known-Bugs"
+		],
+		"changes_zh": [
+			"增加了保存有问题的时间轴的功能。时间轴编辑器里的变化现在会在图形时间轴内显示出。",
+			"《快进至指定时间》和《快进到跳蓝》的按钮会在使用时间轴编辑器后坚持寻找设定的时间或下一个跳蓝。",
+			"增加了《复制时间轴》按钮。",
+			"如果想知道已知问题，请查看GitHub网页：https://github.com/xivintheshell/xivintheshell/wiki/Known-Bugs"
+		],
+		"level": "major"
+	},
+	{
+		"date": "5/29/25",
+		"changes": [
+			"[PLD] Chinese localization adjustments.",
+			"[SMN] Chinese localization; fix summon lock bar not showing progress."
+		],
+		"changes_zh": [
+			"【骑士】汉化补充。",
+			"【召唤师】汉化实装；修复召唤剩余时间进度条不显示的问题。"
+		],
+		"level": "minor"
+	},
+	{
+		"date": "5/28/25",
+		"changes": [
+			"[PLD] Chinese localization first draft."
+		],
+		"changes_zh": [
+			"【骑士】汉化初稿。"
+		],
+		"level": "minor"
+	},
+	{
+		"date": "5/27/25",
+		"changes": [
+			"[BRD][MCH][SMN] Adjusted AoE potencies to reflect patch 7.25."
+		],
+		"changes_zh": [
+			"【吟游诗人】【机工士】【召唤师】调整多目标技能威力至7.25版本的数值。"
+		],
+		"level": "minor"
+	},
+	{
+		"date": "5/26/25",
+		"changes": [
+			"Fixed a bug where damage log CSV export didn't work (thanks ryxiv)."
+		],
+		"level": "minor"
+	},
+	{
+		"date": "5/23/25",
+		"changes": [
+			"Adjusted the calculations for the effect of crit/DH party buffs on auto-crit/DH hits, like PCT's Hammer combo.",
+			"Fixed a bug with export to Ama's combat sim where Chain Stratagem and Dokumori would not apply to the boss."
+		],
+		"changes_zh": [
+			"调整了暴击和直击团辅对必直暴的技能（比如：绘灵法师的重锤连击）的影响。",
+			"Fixed a bug with export to Ama's combat sim where Chain Stratagem and Dokumori would not apply to the boss."
+		],
+		"level": "minor"
+	},
+	{
+		"date": "5/18/25",
+		"changes": [
+			"Updated the site to automatically use dark mode if your system is set to use it. Manually using the theme selector overrides this.",
+			"[GNB] Fixed a typo where \"Lightning Shot\" was incorrectly called \"Lightning Shock.\"",
+			"[GNB] Updated the application delay of Trajectory from 0.22 to 0.66 to match the current version of the game."
+		],
+		"level": "minor"
+	},
+	{
+		"date": "5/17/25",
+		"changes": [
+			"We've made some big updates to the tools we use to build XIV in the Shell. The site should work the same as before, but if you notice anything broken or slow, please let us know posthaste.",
+			"We're planning on adding some large features in the near feature, so we've also made the changelog more prominent in anticipation. Please look forward to it."
+		],
+		"changes_zh": [
+			"我们对制造XIV in the Shell的软件工具做了大更新。网站的操作应该和以前一样、如果您发现有任何功能有破坏或变慢了，请尽快通知我们。",
+			"因为我们准备在不久的将来内对排轴器增加大功能，所以我们先把更新日志变得更加引人注意。更大的公告也会有像这样的中文翻译。敬请期待。"
+		],
+		"level": "major"
+	},
+	{
+		"date": "5/10/25",
+		"changes": [
+			"[PLD] Added initial support for PLD"
+		],
+		"changes_zh": [
+			"【骑士】 加了初步的骑士支持。"
+		],
+		"level": "major"
+	},
+	{
+		"date": "5/9/25",
+		"changes": [
+			"[RPR] Fixed a bug where Regress wasn't usable in enshroud",
+			"[RPR] Fixed a bug where Grim Swathe was replaced with Lemure's Slice instead of Lemure's Scythe",
+			"[RPR] Fixed a bug where Perfectio was usable in enshroud",
+			"[RPR] Fixed a bug where Executioner's Gibbet/Gallows weren't replaced with Void/Cross Reaping while in enshroud",
+			"[SMN] Fixed a bug where Slipstream's initial hit falloff was displayed incorrectly in the DoT table (thanks omor1)",
+			"[SMN] Fixed the potency of Mountain Buster (was incorrectly listed as 170 instead of 160, thanks omor1)"
+		]
+	},
+	{
+		"date": "5/2/25",
+		"changes": [
+			"Changed Ama's combat sim export to disable auto-attacks for healer/caster jobs."
+		]
+	},
+	{
+		"date": "4/28/25",
+		"changes": [
+			"Refactored cooldown logic. Changes should not affect end users, but let us know if anything is off.",
+			"Added a few missing translations"
+		]
+	},
+	{
+		"date": "4/21/25",
+		"changes": [
+			"Updated compatibility with Ama's combat sim for newly-supported jobs."
+		]
+	},
+	{
+		"date": "4/17/25",
+		"changes": [
+			"[RPR] Added a button to gain +10 Soul Gauge to simulate a target dying with Death's Design active",
+			"[BRD] Fixed a bug where Iron Jaws checked the dot status at application time instead of confirmation time (thanks Yumiya)",
+			"[BRD] Fixed a bug where Empyreal Arrow applied repertoire at application time instead of confirmation time (also thanks Yumiya)"
+		]
+	},
+	{
+		"date": "4/13/25",
+		"changes": [
+			"Added English-language markers for M8S"
+		]
+	},
+	{
+		"date": "4/7/25",
+		"changes": [
+			"Added English-language markers for M7S"
+		]
+	},
+	{
+		"date": "4/6/25",
+		"changes": [
+			"Added English-language markers for M5S + M6S"
+		]
+	},
+	{
+		"date": "3/29/25",
+		"changes": [
+			"[BLM] Removed \"outdated\" status"
+		]
+	},
+	{
+		"date": "3/26/25",
+		"changes": [
+			"Added user survey link"
+		]
+	},
+	{
+		"date": "3/24/25",
+		"changes": [
+			"We have updated the site in accordance with the 7.2 patch notes. Goodbye to the Enochian timer o7",
+			"[BLM] will remain in \"outdated\" status until we have a change to play with the changes in-game.",
+			"Since most jobs received only potency changes, your old 7.1 plans should work, but as usual, please let us know if anything seems incorrect."
+		]
+	},
+	{
+		"date": "3/20/25",
+		"changes": [
+			"[DNC] Fixed an issue where the icons for Finishing Move Ready and Last Dance Ready were swapped, and an issue where Last Dance Ready was not consumed by Last Dance (thank you bluke)"
+		]
+	},
+	{
+		"date": "3/16/25",
+		"changes": [
+			"Fixed an issue where resource toggles were shown in the timeline editor with their internal keys rather than localized text.",
+			"Fixed mistakes in DoT effect override calculations.",
+			"In anticipation of patch 7.2, we're working on some changes to make it easier to migrate timelines after site or game changes. The following things have changed:",
+			"- Single-clicking an action will now try to use it as soon as the current animation lock/skill cooldown is over (this used to require double-clicking). If the action cannot be used, a wait is automatically added to the timeilne.",
+			"- In \"manual\" control mode, you no longer need to press space to advance past an action's animation lock (it will now advance automatically when a skill is used).",
+			"- Displayed wait durations are now always calculated from the end of the previous animation lock. Any existing timelines will automatically be adjusted--the shown wait times may be different, but the times where actions are used will remain the same.",
+			"- Skill sequence presets now include wait durations. This lets you load/save sequences that use late weaves or wait for MP ticks (assuming ticks still line up correctly).",
+			"As a consequence of these changes, you actually might now be able to load BLM timelines from 7.05/7.0 that previously were broken as a result of Despair becoming instant. Despair will still be instant and other buff usage will be unchanged, but the time between abilities should be correct.",
+			"These changes are very large, and while we've tested to make sure they won't break your existing timelines, there might still be some bugs that slipped through the cracks. As always, please reach out to us if you encounter any problems."
+		]
+	},
+	{
+		"date": "3/1/25",
+		"changes": [
+			"Make it so that you can only delete the currently active slot, to hopefully reduce the chance of accidentally deleting a slot when switching"
+		]
+	},
+	{
+		"date": "2/26/25",
+		"changes": [
+			"Updated the GCD formula because the old formula may be off by 0.01s when there is haste buff. Thank you Yuyuka for spotting the error. Note: old timelines (including timelines in browser localStorage) aren't affected; only newly created timelines use the new formula."
+		]
+	},
+	{
+		"date": "2/22/25",
+		"changes": [
+			"Added Queen Eternal markers by 小盐"
+		]
+	},
+	{
+		"date": "2/21/25",
+		"changes": [
+			"[BRD][GNB][SMN] Removed testing tag"
+		]
+	},
+	{
+		"date": "2/20/25",
+		"changes": [
+			"[SGE] Initial implementation for SGE",
+			"- Some rough edges still exist around Krasis' healing potency modification and Eukrasian shield handling.",
+			"- Basic functionality should be reasonably complete.",
+			"[RDM] Fixed a bug where Manafication could be used before combat"
+		]
+	},
+	{
+		"date": "2/16/25",
+		"changes": [
+			"[SAM] Fixed Hagakure only being usable at 3 sen"
+		]
+	},
+	{
+		"date": "2/15/25",
+		"changes": [
+			"[BLM] Fixed Manafont CD at lvl80 and below: should be 120s"
+		]
+	},
+	{
+		"date": "2/13/25",
+		"changes": [
+			"Updated English FRU tracks to more accurately reflect downtime between phases. We previously used the \"death\" event in a log as the end of a phase, but it turns out this is inaccurate as the last damage application to the boss occurs ~2 seconds before its recorded death.",
+			"- P1 to P2 untargetable duration increased by 2 seconds",
+			"- P2 to intermission untargetable duration decreased to align with the \"crystals become targetable\" mark",
+			"- Intermission to P3 downtime increased to match Gaia's attack killing the crystal",
+			"In order to not break existing timelines, the preset EN full fight track now treats P1 as dying 2 seconds before the end of the enrage cast. The start times of all phases are unaffected."
+		]
+	},
+	{
+		"date": "2/4/25",
+		"changes": [
+			"[SAM] Fixed AoE combo actions not ending the combo",
+			"[DRG] Added initial support for DRG"
+		]
+	},
+	{
+		"date": "2/2/25",
+		"changes": [
+			"[BRD][DNC] Fixed bonuses given from certain crit/DH buffs not applying in total potency calculations"
+		]
+	},
+	{
+		"date": "2/1/25",
+		"changes": [
+			"[WAR][SAM][RPR][MCH][DNC] Implemented localization for some recently added jobs"
+		]
+	},
+	{
+		"date": "1/27/25",
+		"changes": [
+			"[SMN] Added initial support for SMN"
+		]
+	},
+	{
+		"date": "1/26/25",
+		"changes": [
+			"[WAR][GNB] Fixed missing icon for tank LB3s"
+		]
+	},
+	{
+		"date": "1/18/25",
+		"changes": [
+			"[GNB] Added initial support for GNB"
+		]
+	},
+	{
+		"date": "1/17/25",
+		"changes": [
+			"Added \"move end of selection to start of selection\" button to the timeline editor"
+		]
+	},
+    {
+        "date": "1/12/25",
+        "changes": [
+            "[RPR] Fixed a bug where oGCDs would improperly consume Reaver/Executioner stacks"
+        ]
+    },
+	{
+		"date": "1/8/25",
+		"changes": [
+			"[WAR] Fixed surging tempest text not showing up in potency modifier tooltip",
+			"[MCH] Fixed Overheated potency modifier not being applied"
+		]
+	},
+	{
+		"date": "1/5/25",
+		"changes": [
+			"Fixed a bug where multi-target spells lost their target counts when using the timeline editor"
+		]
+	},
+	{
+		"date": "1/4/25",
+		"changes": [
+			"Added support for multi-target abilities"
+		]
+	},
+	{
+		"date": "1/3/25",
+		"changes": [
+			"[WAR][SAM][RPR] Removed testing tag"
+		]
+	},
+	{
+		"date": "1/1/25",
+		"changes": [
+			"Added combined English FRU tracks"
+		]
+	},
+	{
+		"date": "12/28/24",
+		"changes": [
+			"[PCT] Fixed warning for Palette Gauge overcap"
+		]
+	},
+	{
+		"date": "12/24/24",
+		"changes": [
+			"[MCH] Added support for Flamethrower"
+		]
+	},
+	{
+		"date": "12/22/24",
+		"changes": [
+			"[BRD] Added initial support for BRD",
+			"Overhaul DoT tracking to provide better usage statistics",
+			"[BLM] Added High Thunder II"
+		]
+	},
+	{
+		"date": "12/20/24",
+		"changes": [
+			"Fixed stats tables not including party buff potencies for most skills",
+			"Removed flank/rear positional resources for non-melee jobs"
+		]
+	},
+	{
+		"date": "12/19/24",
+		"changes": [
+			"[WAR] Adjusted animation lock of Primal Rend",
+			"Fixed Down for the Count timing in FRU P4 (thanks xi12570)"
+		]
+	},
+	{
+		"date": "12/16/24",
+		"changes": [
+			"Limit breaks for all jobs!",
+			"[MCH][DNC] Removed testing tag",
+			"Updated \"About this tool\" section",
+			"More underlying implementation changes",
+			"[PCT] Made Hammer combo expire with Hammer Time buff (changed in 7.1)"
+		]
+	},
+	{
+		"date": "12/13/24",
+		"changes": [
+			"Fixed sometimes unable to use skills in manual mode with double click",
+			"[RPR] Added timer for Immortal Sacrifice",
+			"[RPR] Removed enhanced reapings whenever shroud is exited",
+			"[RPR] Separated cooldowns of Sacrificium and Lemure's Slice",
+			"[RPR] Fixed sks scaling",
+			"[WAR] Added initial WAR support"
+		]
+	},
+	{
+		"date": "12/12/24",
+		"changes": [
+			"Updated English FRU tracks and added P4 + P5"
+		]
+	},
+	{
+		"date": "12/8/24",
+		"changes": [
+			"Updated Chinese FRU tracks to latest (12/8 ver)",
+			"Make stats tables only include selected skills when there is selection"
+		]
+	},
+	{
+		"date": "12/7/24",
+		"changes": [
+			"Updated positional buff icons",
+			"Misc cleanups and optimizations (hey devs: rerun npm install)",
+			"[BLM] Fixed Retrace button not changing back to LL if LL is disabled when the buff drops"
+		]
+	},
+	{
+		"date": "12/5/24",
+		"changes": [
+			"Updated Chinese FRU tracks to latest (12/2 version)",
+			"Additional Chinese localization changes (preset lines; initial resource overrides section; many resource names)",
+			"New skill icon progress bar visuals 🎉"
+		]
+	},
+	{
+		"date": "12/4/24",
+		"changes": [
+			"Added English FRU P3 tracks by Yara",
+			"[RDM] Fixed Swiftcast being consumed before Dualcast when both are active"
+		]
+	},
+	{
+		"date": "12/2/24",
+		"changes": [
+			"Added English FRU P2 tracks by Yara",
+			"Fixed a bug where 'Load tracks starting at timestamp' did not accept some time formats",
+			"[RDM] Removed the 'testing' label"
+		]
+	},
+	{
+		"date": "12/1/24",
+		"changes": [
+			"Updated full FRU tracks in Chinese by 盐宝 & czmm"
+		]
+	},
+	{
+		"date": "11/30/24",
+		"changes": [
+			"[MCH] Fixed Scattergun's heat generation (thanks Kairos)",
+			"[PCT] Fixed Monochrome Tones appearing when synced to level 80 and other internal trait logic (thanks misterperson)"
+		]
+	},
+	{
+		"date": "11/29/24",
+		"changes": [
+			"[MCH] Fixed bugs with MCH Overheat consumption on AoE abilities (thanks FloatingGhost)"
+		]
+	},
+	{
+		"date": "11/28/24",
+		"changes": [
+			"Added some Chinese tracks (M1S-M4S, FRU before P2.5)"
+		]
+	},
+	{
+		"date": "11/27/24",
+		"changes": [
+			"Added the ability to override stacks to 0 for 1-stack resources that start present by default",
+			"Added preliminary FRU P1 tracks by Yara"
+		]
+	},
+	{
+		"date": "11/26/24",
+		"changes": [
+			"Added the ability to load marker tracks starting from a particular timestamp"
+		]
+	},
+	{
+		"date": "11/25/24",
+		"changes": [
+			"[RPR] Added initial RPR support"
+		]
+	},
+	{
+		"date": "11/24/24",
+		"changes": [
+			"[MCH] Added initial MCH support"
+		]
+	},
+	{
+		"date": "11/21/24",
+		"changes": [
+			"[SAM] Fixed a bug where Fuka haste was doubly applied",
+			"[SAM] Added GCD under Fuka in playback control"
+		]
+	},
+	{
+		"date": "11/20/24",
+		"changes": [
+			"[DNC] Added initial DNC support",
+			"[SAM] Added initial SAM support (thank you Sterling Sylva for the initial work)",
+			"Added support for skill speed in addition to spell speed"
+		]
+	},
+	{
+		"date": "11/17/24",
+		"changes": [
+			"[RDM] Fix Manafication CD (thanks 云青渔语)",
+			"[all casters] Fix Surecast duration: previously 10s, now 6.5s (ty erii)"
+		]
+	},
+	{
+		"date": "11/16/24",
+		"changes": [
+			"Make DET use main stat formula and default to 440",
+			"Add hyperlinks for xivgear and etro"
+		]
+	},
+	{
+		"date": "11/15/24",
+		"changes": [
+			"(thank you Yuyuka for reporting a bunch of RDM bugs)",
+			"[RDM] Added some additional warnings on unintended buff drops, overwrites, and combo breaks",
+			"[RDM] Fixed the duration of the Acceleration buff",
+			"[RDM] Fixed the MP costs of Veraero II/Verthunder II",
+			"[RDM] Fixed Manafication failing to interrupt combos",
+			"[RDM] Fixed Manafication being usable out of combat",
+			"[RDM] Fixed Enchanted Reprise clearing mana stacks",
+			"[RDM] Made Prefulgence and Vice of Thorns into button replacements"
+		]
+	},
+	{
+		"date": "11/14/24",
+		"changes": [
+			"(thank you Wan Shott for reporting a bunch of RDM bugs)",
+			"[RDM] Fixed bugs where Verfire and Grand Impact didn't grant correct mana",
+			"[RDM] Fixed a bug where it was possible to use un-enchanted Moulinet under certain incorrect conditions",
+			"mark newly-implemented jobs as in testing and display a warning message when using those jobs"
+		]
+	},
+	{
+		"date": "11/13/24",
+		"changes": [
+			"Fixed a bug where party buff potencies were not displayed",
+			"[PCT] Fixed a bug where using two hammer combos within 30s of each other caused the combo to break",
+			"[RDM] Fixed a bug where level synced RDM still received Grand Impact Ready from Acceleration",
+			"[RDM] Fixed a bug where Acceleration did not always grant a Verstone/Verfire proc",
+			"[RDM] Fixed a bug where certain role buffs were not being displayed on the hotbar",
+			"[RDM] Fixed a bug where buffs were overlapping the hotbar",
+			"[RDM] Fixed a bug where Contre Sixte's cooldown was improperly affected by traits",
+			"Removed debug and implementation notes sections (see repository wiki for implementation notes)"
+		]
+	},
+	{
+		"date": "11/12/24",
+		"changes": [
+			"Initial XIV in the Shell! Supporting patch 7.1 BLM and PCT, plus preliminary RDM"
+		]
+	}
+]
